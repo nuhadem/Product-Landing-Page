@@ -1,10 +1,13 @@
 :root{
     --white:hsl(0, 0%, 100%);
     --text:hsl(155, 96%, 30%);
-
+    --pale:hsl(32, 37%, 90%);
 }
 * {
     margin: 0;
+}
+body{
+    background-color: var(--pale);
 }
 #header-logo{
     width: 80px;
@@ -30,12 +33,15 @@
     color: var(--text);
     padding: 10px;
 }
+.nav-links a:hover{
+    background-color: rgb(255, 242, 3);
+}
 .logo-container{
     display: flex;
     align-items: center;
 }
 .the-product{
-    font-size: 26px;
-    font-weight: 900;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    font-family:"Montserrat";
 }
