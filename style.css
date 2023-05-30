@@ -1,6 +1,17 @@
 :root{
-    --white:hsl(0,0%,100%)
+    --white:hsl(0, 0%, 100%);
+
 }
 * {
     margin: 0;
+}
+#header-logo{
+    width: 60px;
+    object-fit: contain;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
