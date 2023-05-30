@@ -1,12 +1,13 @@
 :root{
     --white:hsl(0, 0%, 100%);
+    --text:hsl(155, 96%, 30%);
 
 }
 * {
     margin: 0;
 }
 #header-logo{
-    width: 60px;
+    width: 80px;
     object-fit: contain;
 }
 #nav-bar{
@@ -14,4 +15,27 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--white);
+    padding: 10px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: var(--text);
+    padding: 10px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.the-product{
+    font-size: 26px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
