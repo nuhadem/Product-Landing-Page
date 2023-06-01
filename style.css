@@ -45,3 +45,11 @@ body{
     font-weight: 700;
     font-family:"Montserrat";
 }
+#email-section{
+    margin: 150px;
+    text-align: center;
+}
+section{
+    margin: 20px 40px;
+    text-align: center;
+}
