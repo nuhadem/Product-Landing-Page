@@ -2,6 +2,7 @@
     --white:hsl(0, 0%, 100%);
     --text:hsl(155, 96%, 30%);
     --pale:hsl(32, 37%, 90%);
+    --green:hsl(158, 91%, 27%);
 }
 * {
     margin: 0;
@@ -52,4 +53,18 @@ body{
 section{
     margin: 20px 40px;
     text-align: center;
+}
+input{
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid var(--green);
+}
+#submit{
+    background-color: var(--green);
+    color: var(--white);
+    cursor: pointer;
+}
+h2{
+    font-family: "fraunces";
+    margin-bottom: 10px;
 }
