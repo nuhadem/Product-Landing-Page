@@ -67,4 +67,15 @@ input{
 h2{
     font-family: "fraunces";
     margin-bottom: 10px;
+    color: black;
+}
+.feature{
+    color: var(--green);
+}
+#features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-family: "montserrat";
 }
