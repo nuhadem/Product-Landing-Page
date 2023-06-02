@@ -182,6 +182,29 @@ h2{
     }
     .product-image{
         height: 400px;
+    } 
+}
+@media only screen and (650px <=width){
+    .card{
+        display: flex;
+        max-width: 525px;
     }
-    
+    .inner-card{
+        width: 300px;
+        padding: 20px;
+    }
+    .product-image{
+        width: 400px;
+        border-radius: 10px 0 0 10px;
+    } 
+}
+@media only screen and ( width >= 1000px){
+    #video{
+        width: 70%;
+    }
+    .product-cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
