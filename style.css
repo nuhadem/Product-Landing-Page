@@ -1,8 +1,9 @@
 :root{
     --white:hsl(0, 0%, 100%);
-    --text:hsl(155, 96%, 30%);
+    --text:hsl(156, 5%, 20%);
     --pale:hsl(32, 37%, 90%);
     --green:hsl(158, 91%, 27%);
+    --header:hsl(150, 2%, 23%);
 }
 * {
     margin: 0;
@@ -116,5 +117,39 @@ h2{
     margin-bottom: 10px;
 }
 .inner-card{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+.content{
+    font-family: "montserrat";
+    color:var(--text);
+    margin-bottom: 10px;
+}
+.main-price{
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: "fraunces";
+    color: var(--green);
+}
+.old-price{
+    text-decoration: line-through;
+    color: var(--text);
+}
+.author{
+    font-size: 26px;
+    font-family: "montserrat";
+    letter-spacing: 5px;
+    text-transform:uppercase;
+}
+.header{
+    font-family: "fraunces";
+    margin: 10px 0px;
+    color: var(--header);
+}
+.add{
+    background-color: var(--green);
+    color: var(--white);
+    cursor: pointer;
 }
