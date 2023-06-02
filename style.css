@@ -46,8 +46,16 @@ body{
     font-weight: 700;
     font-family:"Montserrat";
 }
+section::before{
+    display: block;
+    content: " ";
+    margin-top: -100px;
+    height: 150px;
+    visibility: hidden;
+    pointer-events: none;
+}
 #email-section{
-    margin: 150px;
+    margin: 100px;
     text-align: center;
 }
 section{
@@ -69,13 +77,20 @@ h2{
     margin-bottom: 10px;
     color: black;
 }
-.feature{
-    color: var(--green);
-}
+
 #features{
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
+.feature{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px;
     font-family: "montserrat";
+}
+.icon{
+    color: var(--green);
+    margin-right: 30px;
 }
