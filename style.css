@@ -119,6 +119,7 @@ h2{
 .card{
     margin: auto;
     background-color: var(--white);
+    border-radius: 10px;
     width: 90%;
     margin-bottom: 10px;
 }
@@ -143,7 +144,6 @@ h2{
     font-size: 30px;
     font-family: "fraunces";
     color: var(--green);
-    text-align: left;
 }
 .old-price{
     text-decoration: line-through;
@@ -153,10 +153,11 @@ h2{
     font-family: "montserrat";
     letter-spacing: 5px;
     text-transform:uppercase;
+    color: var(--text);
 }
 .header{
     font-family: "fraunces";
-    margin: 10px 0px;
+    margin: 10px 0;
     color: var(--header);
 }
 .add{
@@ -165,11 +166,11 @@ h2{
     cursor: pointer;
     padding: 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 100%;
     font-family: "montserrat";
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 @media only screen and (min-width:600px){
     #nav-bar{
