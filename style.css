@@ -144,7 +144,6 @@ h2{
     color: var(--text);
 }
 .author{
-    font-size: 26px;
     font-family: "montserrat";
     letter-spacing: 5px;
     text-transform:uppercase;
