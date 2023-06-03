@@ -11,7 +11,7 @@
 body{
     background-color: var(--pale);
 }
-#header-logo{
+#header-img{
     width: 80px;
     object-fit: contain;
 }
